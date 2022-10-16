@@ -56,7 +56,7 @@ public class DepartmentServiceTest {
         assertThat(departmentService.allEmployeeOfDepartment()).containsExactlyInAnyOrderEntriesOf(
                 Map.of(2, List.of(
                         new Employee("Ivan",2,45364),
-                        new Employee("Ivan2",2,15364),
+                        new Employee("Ivan2",2,15364)
                 ),
                         4,List.of(
                                 new Employee("Ivan3",4,48764),
